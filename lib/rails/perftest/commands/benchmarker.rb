@@ -26,7 +26,7 @@ class BenchmarkerTest < ActionDispatch::PerformanceTest #:nodoc:
 
   ARGV.each do |expression|
     eval <<-RUBY
-      def test_#{expression.parameterize('_')}
+      def test_#{expression.parameterize(separator: '_')}
         #{expression}
       end
     RUBY
