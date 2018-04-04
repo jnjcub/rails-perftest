@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.version       = Rails::Perftest::VERSION
 
   gem.add_development_dependency 'ruby-prof', '>= 0.12.1'
-  gem.add_development_dependency 'minitest', '= 5.12.2'
+  gem.add_development_dependency 'minitest', '= 5.9.1'
   gem.add_development_dependency 'railties', '~> 4.0'
   gem.add_development_dependency 'activerecord', '~> 4.0'
   gem.add_development_dependency 'activemodel', '~> 4.0'
